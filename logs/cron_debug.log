@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/home/drew/python-projects/systemmonitor/main.py", line 4, in <module>
+    logging.basicConfig(filename= 'logs/systemmonitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 2099, in basicConfig
+    h = FileHandler(filename, mode,
+                    encoding=encoding, errors=errors)
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1218, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1247, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/drew/logs/systemmonitor.log'
+Traceback (most recent call last):
+  File "/home/drew/python-projects/systemmonitor/main.py", line 4, in <module>
+    logging.basicConfig(filename= 'logs/systemmonitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 2099, in basicConfig
+    h = FileHandler(filename, mode,
+                    encoding=encoding, errors=errors)
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1218, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1247, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/drew/logs/systemmonitor.log'
+Traceback (most recent call last):
+  File "/home/drew/python-projects/systemmonitor/main.py", line 4, in <module>
+    logging.basicConfig(filename= 'logs/systemmonitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 2099, in basicConfig
+    h = FileHandler(filename, mode,
+                    encoding=encoding, errors=errors)
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1218, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1247, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/drew/logs/systemmonitor.log'
+Traceback (most recent call last):
+  File "/home/drew/python-projects/systemmonitor/main.py", line 4, in <module>
+    logging.basicConfig(filename= 'logs/systemmonitor.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 2099, in basicConfig
+    h = FileHandler(filename, mode,
+                    encoding=encoding, errors=errors)
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1218, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "/home/drew/.pyenv/versions/3.13.1/lib/python3.13/logging/__init__.py", line 1247, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/drew/logs/systemmonitor.log'

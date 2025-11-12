@@ -1,0 +1,150 @@
+2025-08-01 13:51:42,608 - INFO - CPU Usage: 0.0%
+2025-08-01 13:51:42,609 - INFO - RAM Usage: 22.3%
+2025-08-01 13:57:49,164 - INFO - CPU Usage: 37.5%
+2025-08-01 13:57:49,165 - INFO - RAM Usage: 22.2%
+2025-08-01 13:58:04,315 - INFO - CPU Usage: 14.3%
+2025-08-01 13:58:04,315 - INFO - RAM Usage: 22.1%
+2025-08-01 13:58:04,315 - INFO - Disk Usage:1.4%
+2025-08-01 13:58:44,261 - INFO - CPU Usage: 25.0
+2025-08-01 13:58:44,261 - INFO - RAM Usage: 22.2
+2025-08-01 13:58:44,261 - INFO - Disk Usage:1.4
+2025-08-01 13:58:44,262 - INFO - Network Stats: snetio(bytes_sent=63017406, bytes_recv=594983032, packets_sent=80921, packets_recv=437814, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:03:13,044 - INFO - Bytes Received: 596089513 (0.56 GB)
+2025-08-01 14:03:13,044 - INFO - Bytes Sent: 65044977 (0.06 GB)
+2025-08-01 14:03:13,045 - INFO - CPU Usage: 22.2
+2025-08-01 14:03:13,045 - INFO - RAM Usage: 22.3
+2025-08-01 14:03:13,045 - INFO - Disk Usage:1.4
+2025-08-01 14:03:13,045 - INFO - Network Stats: snetio(bytes_sent=65044977, bytes_recv=596089513, packets_sent=84063, packets_recv=440970, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:53:01,656 - INFO - CPU Usage: 33.3
+2025-08-01 14:53:01,666 - INFO - RAM Usage: 21.8
+2025-08-01 14:53:01,666 - INFO - Disk Usage:1.4
+2025-08-01 14:53:01,666 - INFO - Network Stats: snetio(bytes_sent=70193961, bytes_recv=600949620, packets_sent=113203, packets_recv=470242, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:53:01,666 - INFO - Bytes Received: 600949620 (0.56 GB)
+2025-08-01 14:53:01,666 - INFO - Bytes Sent: 70193961 (0.07 GB)
+2025-08-01 14:54:01,736 - INFO - CPU Usage: 0.0
+2025-08-01 14:54:01,736 - INFO - RAM Usage: 21.8
+2025-08-01 14:54:01,736 - INFO - Disk Usage:1.4
+2025-08-01 14:54:01,737 - INFO - Network Stats: snetio(bytes_sent=70276900, bytes_recv=601032620, packets_sent=113699, packets_recv=470739, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:54:01,737 - INFO - Bytes Received: 601032620 (0.56 GB)
+2025-08-01 14:54:01,737 - INFO - Bytes Sent: 70276900 (0.07 GB)
+2025-08-01 14:55:01,801 - INFO - CPU Usage: 16.7
+2025-08-01 14:55:01,801 - INFO - RAM Usage: 21.8
+2025-08-01 14:55:01,801 - INFO - Disk Usage:1.4
+2025-08-01 14:55:01,802 - INFO - Network Stats: snetio(bytes_sent=70307681, bytes_recv=601063679, packets_sent=113863, packets_recv=470907, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:55:01,802 - INFO - Bytes Received: 601063679 (0.56 GB)
+2025-08-01 14:55:01,802 - INFO - Bytes Sent: 70307681 (0.07 GB)
+2025-08-01 14:56:01,918 - INFO - CPU Usage: 10.0
+2025-08-01 14:56:01,919 - INFO - RAM Usage: 21.8
+2025-08-01 14:56:01,919 - INFO - Disk Usage:1.4
+2025-08-01 14:56:01,920 - INFO - Network Stats: snetio(bytes_sent=70318073, bytes_recv=601074071, packets_sent=113986, packets_recv=471030, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:56:01,920 - INFO - Bytes Received: 601074071 (0.56 GB)
+2025-08-01 14:56:01,920 - INFO - Bytes Sent: 70318073 (0.07 GB)
+2025-08-01 14:57:01,992 - INFO - CPU Usage: 16.7
+2025-08-01 14:57:01,993 - INFO - RAM Usage: 21.7
+2025-08-01 14:57:01,993 - INFO - Disk Usage:1.4
+2025-08-01 14:57:01,993 - INFO - Network Stats: snetio(bytes_sent=70339516, bytes_recv=601095514, packets_sent=114144, packets_recv=471188, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:57:01,993 - INFO - Bytes Received: 601095514 (0.56 GB)
+2025-08-01 14:57:01,993 - INFO - Bytes Sent: 70339516 (0.07 GB)
+2025-08-01 14:58:02,099 - INFO - CPU Usage: 22.2
+2025-08-01 14:58:02,099 - INFO - RAM Usage: 21.7
+2025-08-01 14:58:02,100 - INFO - Disk Usage:1.4
+2025-08-01 14:58:02,100 - INFO - Network Stats: snetio(bytes_sent=70349919, bytes_recv=601105917, packets_sent=114266, packets_recv=471310, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:58:02,100 - INFO - Bytes Received: 601105917 (0.56 GB)
+2025-08-01 14:58:02,100 - INFO - Bytes Sent: 70349919 (0.07 GB)
+2025-08-01 14:59:01,208 - INFO - CPU Usage: 11.1
+2025-08-01 14:59:01,209 - INFO - RAM Usage: 21.8
+2025-08-01 14:59:01,210 - INFO - Disk Usage:1.4
+2025-08-01 14:59:01,211 - INFO - Network Stats: snetio(bytes_sent=70360740, bytes_recv=601116738, packets_sent=114388, packets_recv=471432, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 14:59:01,212 - INFO - Bytes Received: 601116738 (0.56 GB)
+2025-08-01 14:59:01,212 - INFO - Bytes Sent: 70360740 (0.07 GB)
+2025-08-01 15:00:01,302 - INFO - CPU Usage: 12.5
+2025-08-01 15:00:01,303 - INFO - RAM Usage: 21.8
+2025-08-01 15:00:01,303 - INFO - Disk Usage:1.4
+2025-08-01 15:00:01,303 - INFO - Network Stats: snetio(bytes_sent=70370962, bytes_recv=601126960, packets_sent=114508, packets_recv=471552, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 15:00:01,303 - INFO - Bytes Received: 601126960 (0.56 GB)
+2025-08-01 15:00:01,303 - INFO - Bytes Sent: 70370962 (0.07 GB)
+2025-08-01 15:01:01,966 - INFO - CPU Usage: 11.8
+2025-08-01 15:01:01,970 - INFO - RAM Usage: 21.8
+2025-08-01 15:01:01,971 - INFO - Disk Usage:1.4
+2025-08-01 15:01:01,971 - INFO - Network Stats: snetio(bytes_sent=70404079, bytes_recv=601160077, packets_sent=114736, packets_recv=471780, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 15:01:01,973 - INFO - Bytes Received: 601160077 (0.56 GB)
+2025-08-01 15:01:01,974 - INFO - Bytes Sent: 70404079 (0.07 GB)
+2025-08-01 15:02:01,105 - INFO - CPU Usage: 12.5
+2025-08-01 15:02:01,105 - INFO - RAM Usage: 21.8
+2025-08-01 15:02:01,105 - INFO - Disk Usage:1.4
+2025-08-01 15:02:01,105 - INFO - Network Stats: snetio(bytes_sent=70449336, bytes_recv=601205334, packets_sent=115013, packets_recv=472057, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 15:02:01,106 - INFO - Bytes Received: 601205334 (0.56 GB)
+2025-08-01 15:02:01,106 - INFO - Bytes Sent: 70449336 (0.07 GB)
+2025-08-01 15:53:35,332 - INFO - CPU Usage: 14.3
+2025-08-01 15:53:35,332 - INFO - RAM Usage: 24.7
+2025-08-01 15:53:35,333 - INFO - Disk Usage:1.2
+2025-08-01 15:53:35,333 - INFO - Network Stats: snetio(bytes_sent=24476653, bytes_recv=24596612, packets_sent=3095, packets_recv=3258, errin=0, errout=0, dropin=0, dropout=0)
+2025-08-01 15:53:35,333 - INFO - Bytes Received: 24596612 (0.02 GB)
+2025-08-01 15:53:35,333 - INFO - Bytes Sent: 24476653 (0.02 GB)
+2025-11-07 10:48:22,691 - INFO - System Monitor Started
+2025-11-07 10:48:22,695 - INFO - CPU Usage: 25.0%
+2025-11-07 10:48:22,696 - INFO - RAM Usage: 32.9%
+2025-11-07 10:48:22,696 - INFO - Disk Usage: 1.1%
+2025-11-07 10:50:22,865 - INFO - System Monitor Started
+2025-11-07 10:50:22,866 - INFO - CPU Usage: 30.0%
+2025-11-07 10:50:22,866 - INFO - RAM Usage: 33.1%
+2025-11-07 10:50:22,866 - INFO - Disk Usage: 1.1%
+2025-11-07 10:50:22,867 - INFO - Network Received: 0.04 GB
+2025-11-07 10:50:22,867 - INFO - Network Sent: 0.05 GB
+2025-11-07 10:50:22,867 - INFO - System Monitor Finished
+2025-11-07 10:54:46,783 - INFO - System Monitor Started
+2025-11-07 10:54:46,787 - INFO - CPU Usage: 29.2%
+2025-11-07 10:54:46,787 - INFO - RAM Usage: 33.2%
+2025-11-07 10:54:46,787 - INFO - Disk Usage: 1.1%
+2025-11-07 10:54:46,788 - INFO - Network Received: 0.04 GB
+2025-11-07 10:54:46,788 - INFO - Network Sent: 0.05 GB
+2025-11-07 10:54:46,788 - INFO - System Monitor Finished
+2025-11-07 10:55:05,049 - INFO - System Monitor Started
+2025-11-07 10:55:05,050 - INFO - CPU Usage: 15.9%
+2025-11-07 10:55:05,050 - INFO - RAM Usage: 33.1%
+2025-11-07 10:55:05,050 - INFO - Disk Usage: 1.1%
+2025-11-07 10:55:05,051 - INFO - Network Received: 0.04 GB
+2025-11-07 10:55:05,051 - INFO - Network Sent: 0.05 GB
+2025-11-07 10:55:05,051 - INFO - System Monitor Finished
+2025-11-07 10:56:28,375 - INFO - System Monitor Started
+2025-11-07 10:56:28,378 - INFO - CPU Usage: 20.0%
+2025-11-07 10:56:28,380 - INFO - RAM Usage: 33.1%
+2025-11-07 10:56:28,381 - INFO - Disk Usage: 1.1%
+2025-11-07 10:56:28,381 - INFO - Network Received: 0.04 GB
+2025-11-07 10:56:28,381 - INFO - Network Sent: 0.05 GB
+2025-11-07 10:56:28,382 - INFO - System Monitor Finished
+{"time": "2025-11-07 11:57:21,054", "level": "INFO", "message": "System Monitor Started"}
+{"time": "2025-11-07 11:57:21,058", "level": "INFO", "message": "CPU Usage: 25.0%"}
+{"time": "2025-11-07 11:57:21,058", "level": "INFO", "message": "RAM Usage: 34.8%"}
+{"time": "2025-11-07 11:57:21,058", "level": "INFO", "message": "Disk Usage: 1.1%"}
+{"time": "2025-11-07 11:57:21,063", "level": "INFO", "message": "Network Received: 0.05 GB"}
+{"time": "2025-11-07 11:57:21,064", "level": "INFO", "message": "Network Sent: 0.05 GB"}
+{"time": "2025-11-07 11:57:21,064", "level": "INFO", "message": "System Monitor Finished"}
+{"time": "2025-11-07 12:08:40,515", "level": "INFO", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:08:40,517", "level": "INFO", "label": "CPU Usage", "value": 66.7, "unit": "%"}
+{"time": "2025-11-07 12:08:40,518", "level": "INFO", "label": "RAM Usage", "value": 34.7, "unit": "%"}
+{"time": "2025-11-07 12:08:40,518", "level": "INFO", "label": "Disk Usage", "value": 1.1, "unit": "%"}
+{"time": "2025-11-07 12:08:40,519", "level": "INFO", "label": "Network Received", "value": "0.05", "unit": " GB"}
+{"time": "2025-11-07 12:08:40,519", "level": "INFO", "label": "Network Sent", "value": "0.06", "unit": " GB"}
+{"time": "2025-11-07 12:08:40,519", "level": "INFO", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:15:09,686", "level": "INFO", "message": "System Monitor Started", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:15:09,687", "level": "INFO", "message": "", "label": "CPU Usage", "value": 0.0, "unit": "%"}
+{"time": "2025-11-07 12:15:09,687", "level": "INFO", "message": "", "label": "RAM Usage", "value": 34.6, "unit": "%"}
+{"time": "2025-11-07 12:15:09,687", "level": "INFO", "message": "", "label": "Disk Usage", "value": 1.1, "unit": "%"}
+{"time": "2025-11-07 12:15:09,687", "level": "INFO", "message": "", "label": "Network Received", "value": "0.05", "unit": " GB"}
+{"time": "2025-11-07 12:15:09,687", "level": "INFO", "message": "", "label": "Network Sent", "value": "0.06", "unit": " GB"}
+{"time": "2025-11-07 12:15:09,687", "level": "INFO", "message": "System Monitor Finished", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:18:57,282", "level": "INFO", "message": "System Monitor Started", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:18:57,283", "level": "INFO", "message": "CPU Usage: 0.0%", "label": "CPU Usage", "value": 0.0, "unit": "%"}
+{"time": "2025-11-07 12:18:57,283", "level": "INFO", "message": "RAM Usage: 35.5%", "label": "RAM Usage", "value": 35.5, "unit": "%"}
+{"time": "2025-11-07 12:18:57,284", "level": "INFO", "message": "Disk Usage: 1.1%", "label": "Disk Usage", "value": 1.1, "unit": "%"}
+{"time": "2025-11-07 12:18:57,284", "level": "INFO", "message": "Network Received: 0.06 GB", "label": "Network Received", "value": "0.06", "unit": " GB"}
+{"time": "2025-11-07 12:18:57,284", "level": "INFO", "message": "Network Sent: 0.06 GB", "label": "Network Sent", "value": "0.06", "unit": " GB"}
+{"time": "2025-11-07 12:18:57,284", "level": "INFO", "message": "System Monitor Finished", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:19:41,598", "level": "INFO", "message": "System Monitor Started", "label": null, "value": null, "unit": null}
+{"time": "2025-11-07 12:19:41,599", "level": "INFO", "message": "CPU Usage", "label": "CPU Usage", "value": 0.0, "unit": "%"}
+{"time": "2025-11-07 12:19:41,599", "level": "INFO", "message": "RAM Usage", "label": "RAM Usage", "value": 35.5, "unit": "%"}
+{"time": "2025-11-07 12:19:41,599", "level": "INFO", "message": "Disk Usage", "label": "Disk Usage", "value": 1.1, "unit": "%"}
+{"time": "2025-11-07 12:19:41,599", "level": "INFO", "message": "Network Received", "label": "Network Received", "value": "0.06", "unit": " GB"}
+{"time": "2025-11-07 12:19:41,599", "level": "INFO", "message": "Network Sent", "label": "Network Sent", "value": "0.06", "unit": " GB"}
+{"time": "2025-11-07 12:19:41,599", "level": "INFO", "message": "System Monitor Finished", "label": null, "value": null, "unit": null}
