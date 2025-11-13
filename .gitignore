@@ -1,0 +1,17 @@
+# --- PYTHON ---
+__pycache__/
+*.pyc
+
+# --- LOGS ---
+logs/
+*.log
+
+# --- TERRAFORM ---
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/.terraform.lock.hcl
+infra/crash.log
+
+# --- EDITOR ---
+.vscode/
