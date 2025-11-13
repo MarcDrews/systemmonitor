@@ -27,17 +27,44 @@ A simple Python script to monitor system metrics: CPU, RAM, disk usage, and netw
 - Cron (for scheduled execution)
 - Git & GitHub
 
-## Infrastructure
+# Infrastructure (Azure + Terraform)
 
-- Azure Virtual Machine (Linux)
-- Virtual Network (VNet)
-- SSH for remote access
-- Planned: Infrastructure as Code (Terraform/Bicep)
+This project includes a complete Infrastructure-as-Code setup located in the `infra/` folder.
 
+Terraform is used to deploy:
+- Resource Group  
+- Virtual Network (VNet)  
+- Subnet  
+- Public IP  
+- Network Interface  
+- Linux Virtual Machine (Ubuntu)
+
+This makes the deployment repeatable, automated, and version-controlled.
+
+infra/
+├── main.tf # Entry for main resources (resource group, networking, VM)
+├── providers.tf # Terraform + Azure provider configuration
+├── variables.tf # Input variables (project_name, location, etc.)
+├── network.tf # VNet + Subnet
+├── vm.tf # NIC + Public IP + Virtual Machine
+├── outputs.tf # Values displayed after terraform apply
+└── (state files ignored via .gitignore)
+
+## How to deploy infrastructur
+
+1. Navigate to the IaC folder
+  cd infra
+2. Initialize Terraform
+  terraform init
+3. Preview infrastructure changes
+  terraform plan
+4. Apply the deployment
+  terraform apply
+
+# Running the Monitoring Script
 ## How to Run
 
 1. Create and activate virtual environment:
-   ```bash
    python3 -m venv venv
    source venv/bin/activate
 
@@ -52,18 +79,37 @@ A simple Python script to monitor system metrics: CPU, RAM, disk usage, and netw
     */5 * * * * /usr/bin/python3 /home/your-user/systemmonitor/main.py
 
 📚 What I Learned
-- How to monitor system performance using psutil
-- Difference between basic and structured logging
-- How to use cron for automation
-- Setting up and accessing a VM in Azure
-- Using GitHub for version control
-- How to prepare for sending logs to the cloud
-- Foundation for using Infrastructure as Code (IaC)
+  Python & Monitoring
+    - Using psutil to collect system metrics
+    - Difference between basic and structured JSON logging
+    - How to schedule scripts using cron
+
+  Azure Infrastructure
+  - Deploying and accessing Linux VMs
+  - Basics of VNets, subnets, public IPs
+
+  Git & Version Control
+  - Structuring projects
+  - Cleaning repos using .gitignore
+
+  Infrastructure-as-Code (IaC)
+  - Writing Terraform configurations
+  - Using providers (azurerm)
+  - Managing variables and outputs
+  - Running init → plan → apply workflow
+
 
 Project Structure
 systemmonitor/
-├── monitor.py
 ├── main.py
+├── monitor.py
 ├── logs/
 │   └── systemmonitor.json
+├── infra/
+│   ├── main.tf
+│   ├── providers.tf
+│   ├── variables.tf
+│   ├── network.tf
+│   ├── vm.tf
+│   ├── outputs.tf
 └── README.md
