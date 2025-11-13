@@ -44,17 +44,11 @@ This makes the deployment repeatable, automated, and version-controlled.
 
 infra/
 ├── main.tf # Entry for main resources (resource group, networking, VM)
-
 ├── providers.tf # Terraform + Azure provider configuration
-
 ├── variables.tf # Input variables (project_name, location, etc.)
-
 ├── network.tf # VNet + Subnet
-
 ├── vm.tf # NIC + Public IP + Virtual Machine
-
 ├── outputs.tf # Values displayed after terraform apply
-
 └── (state files ignored via .gitignore)
 
 # How to deploy infrastructur
@@ -90,9 +84,9 @@ infra/
 
 # What I Learned
   Python & Monitoring
-    - Using psutil to collect system metrics
-    - Difference between basic and structured JSON logging
-    - How to schedule scripts using cron
+  - Using psutil to collect system metrics
+  - Difference between basic and structured JSON logging
+  - How to schedule scripts using cron
 
   Azure Infrastructure
   - Deploying and accessing Linux VMs
@@ -113,25 +107,14 @@ Project Structure
 systemmonitor/
 
 ├── main.py
-
 ├── monitor.py
-
 ├── logs/
-
 │   └── systemmonitor.json
-
 ├── infra/
-
 │   ├── main.tf
-
 │   ├── providers.tf
-
 │   ├── variables.tf
-
 │   ├── network.tf
-
 │   ├── vm.tf
-
 │   ├── outputs.tf
-
 └── README.md
