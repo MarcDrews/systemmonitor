@@ -26,6 +26,7 @@ A simple Python script to monitor system metrics: CPU, RAM, disk usage, and netw
 - Ubuntu 24.04 LTS
 - Cron (for scheduled execution)
 - Git & GitHub
+- Infrastructure as Code
 
 # Infrastructure (Azure + Terraform)
 
@@ -43,26 +44,35 @@ This makes the deployment repeatable, automated, and version-controlled.
 
 infra/
 ├── main.tf # Entry for main resources (resource group, networking, VM)
+
 ├── providers.tf # Terraform + Azure provider configuration
+
 ├── variables.tf # Input variables (project_name, location, etc.)
+
 ├── network.tf # VNet + Subnet
+
 ├── vm.tf # NIC + Public IP + Virtual Machine
+
 ├── outputs.tf # Values displayed after terraform apply
+
 └── (state files ignored via .gitignore)
 
-## How to deploy infrastructur
+# How to deploy infrastructur
 
 1. Navigate to the IaC folder
+
   cd infra
 2. Initialize Terraform
+
   terraform init
 3. Preview infrastructure changes
+
   terraform plan
 4. Apply the deployment
+
   terraform apply
 
 # Running the Monitoring Script
-## How to Run
 
 1. Create and activate virtual environment:
    python3 -m venv venv
@@ -78,7 +88,7 @@ infra/
     crontab -e
     */5 * * * * /usr/bin/python3 /home/your-user/systemmonitor/main.py
 
-📚 What I Learned
+# What I Learned
   Python & Monitoring
     - Using psutil to collect system metrics
     - Difference between basic and structured JSON logging
@@ -101,15 +111,27 @@ infra/
 
 Project Structure
 systemmonitor/
+
 ├── main.py
+
 ├── monitor.py
+
 ├── logs/
+
 │   └── systemmonitor.json
+
 ├── infra/
+
 │   ├── main.tf
+
 │   ├── providers.tf
+
 │   ├── variables.tf
+
 │   ├── network.tf
+
 │   ├── vm.tf
+
 │   ├── outputs.tf
+
 └── README.md
