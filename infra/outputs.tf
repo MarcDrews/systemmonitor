@@ -10,7 +10,7 @@ output "vm_name" {
 
 output "vm_public_ip" {
   description = "Public IP assigned to the virtual machine"
-  value       = azurerm_public_ip.vm_ip.ip_address
+  value       = azurerm_public_ip.public_ip.ip_address
 }
 
 output "subnet_id" {
