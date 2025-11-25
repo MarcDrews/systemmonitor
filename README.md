@@ -28,6 +28,16 @@ A simple Python script to monitor system metrics: CPU, RAM, disk usage, and netw
 - Git & GitHub
 - Infrastructure as Code
 
+**Azure Services**
+- Linux VM
+- VNet / Subnet
+- NCG
+- Azure Monitor Agent (AMA)
+- Data Collection Rules (DCR)
+- Log Analytics Workspace
+- Microsoft Defender for Cloud (CSPM + ARM alerts)
+- Microsoft Sentinel (SIEM)
+
 # Infrastructure (Azure + Terraform)
 
 This project includes a complete Infrastructure-as-Code setup located in the `infra/` folder.
@@ -102,6 +112,20 @@ infra/
   - Managing variables and outputs
   - Running init → plan → apply workflow
 
+  Cloud Security, Logging & SIEM (integrated into SystemMonitor)
+  - Enabled Microsoft Defender for Cloud (CSPM) to assess and secure the environment
+  - Triggered intentional misconfigurations (e.g., removing/deleting NSG) to validate Defender posture findings and ARM-level security alerts
+  - Configured Azure Monitor Agent (AMA) through Data Collection Rules (DCR) to ingest:
+    - Linux Syslog
+    - Performance metrics
+    - Heartbeat
+  - Built a full telemetry pipeline: VM → AMA → Log Analytics Workspace → Microsoft Sentinel
+  - Activated Sentinel and validated ingestion of:
+    - Syslog
+    - Perf counters
+    - Heartbeat
+    - SecurityAlert (ARM-based alerts)
+  - Used KQL for log analysis and security investigation inside Sentinel
 
 Project Structure
 systemmonitor/
