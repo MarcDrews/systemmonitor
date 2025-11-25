@@ -31,7 +31,7 @@ A simple Python script to monitor system metrics: CPU, RAM, disk usage, and netw
 **Azure Services**
 - Linux VM
 - VNet / Subnet
-- NCG
+- NSG
 - Azure Monitor Agent (AMA)
 - Data Collection Rules (DCR)
 - Log Analytics Workspace
@@ -64,30 +64,38 @@ infra/
 # How to deploy infrastructur
 
 1. Navigate to the IaC folder
+
   cd infra
 
 2. Initialize Terraform
+
   terraform init
 
 3. Preview infrastructure changes
+
   terraform plan
 
 4. Apply the deployment
+
   terraform apply
 
 # Running the Monitoring Script
 
 1. Create and activate virtual environment:
+
    python3 -m venv venv
    source venv/bin/activate
 
 2. Install dependencies:
+
     pip install psutil
 
 3. Run the script:
+
     python3 main.py
 
 4. (Optional) Add to crontab:
+
     crontab -e
     */5 * * * * /usr/bin/python3 /home/your-user/systemmonitor/main.py
 
@@ -99,7 +107,7 @@ infra/
 
   Azure Infrastructure
   - Deploying and accessing Linux VMs
-  - Basics of VNets, subnets, public IPs
+  - Basics of VNets, subnets, public IPs, NSG
 
   Git & Version Control
   - Structuring projects
