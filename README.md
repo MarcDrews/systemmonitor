@@ -64,16 +64,15 @@ infra/
 # How to deploy infrastructur
 
 1. Navigate to the IaC folder
-
   cd infra
+
 2. Initialize Terraform
-
   terraform init
+
 3. Preview infrastructure changes
-
   terraform plan
-4. Apply the deployment
 
+4. Apply the deployment
   terraform apply
 
 # Running the Monitoring Script
