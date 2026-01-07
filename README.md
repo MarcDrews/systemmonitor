@@ -18,7 +18,7 @@ A simple Python script to monitor system metrics: CPU, RAM, disk usage, and netw
 ## Tech Stack
 
 **Languages & Libraries**
-- Python 3
+- Python 
 - `psutil`
 - `logging` (with custom JSON formatter)
 
